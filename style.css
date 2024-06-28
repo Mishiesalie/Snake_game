@@ -28,5 +28,72 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
+
+}
+
+.landing-page {
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: white;
+
+}
+
+.landing-page > h1{
+    font-size: 80px;
     
+}
+
+.landing-page > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.landing-page > img {
+    width: 100px;
+    margin: 20px;
+
+}
+
+.landing-page > button {
+    padding: 8px 40px;
+    font-size: 25px;
+    background-color: #f1c40f;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.landing-page > button:hover {
+    background-color: rgb(210, 210, 210);
+
+}
+
+.landing-page > button:active {
+    background-color: rgb(76, 150, 101);
+
+}
+
+.game-page > button{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+
+}
+
+.title {
+    width: 400px;
+    color: rgb(230, 230, 230);
+    position: relative;
+
 }
