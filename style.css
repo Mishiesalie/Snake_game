@@ -97,3 +97,37 @@ body{
     position: relative;
 
 }
+
+.title > h1 {
+    font-size: 50px;
+}
+
+.title > p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title img {
+    width: 100px;
+    margin: 20px;
+}
+
+.title > button {
+    padding: 5px 30px;
+    font-size: 18px;
+    position: absolute;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    border: 1px solid white;
+}
+
